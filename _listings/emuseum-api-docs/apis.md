@@ -24,7 +24,7 @@ apis:
   tags: Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/emuseum-api-docs/collections-all-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/emuseum-api-docs/collections-id-get.md
 x-common:
 - type: x-issues-page
   url: https://github.com/GSA/eMuseum-API/issues
