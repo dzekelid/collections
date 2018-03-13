@@ -33,7 +33,7 @@ apis:
   tags: Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/box/collections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/box/collections-collection-id-items-get.md
 x-common:
 - type: x-base
   url: https://api.box.com/
