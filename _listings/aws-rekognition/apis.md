@@ -36,7 +36,7 @@ apis:
   tags: Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/aws-rekognition/action-deletecollection-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/aws-rekognition/action-listcollections-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
