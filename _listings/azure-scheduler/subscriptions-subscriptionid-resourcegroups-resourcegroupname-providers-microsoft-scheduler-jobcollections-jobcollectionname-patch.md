@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Job Collections Patch
   version: 1.0.0
+  description: Patches an existing job collection.
 host: management.azure.com
 basePath: /
 schemes:
