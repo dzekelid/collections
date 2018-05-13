@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Delete Collection
   version: 1.0.0
+  description: Deletes the specified collection.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCollection&k=1:
+  /?Action=DeleteCollection:
     get:
       summary: ' Delete Collection '
       description: Deletes the specified collection
