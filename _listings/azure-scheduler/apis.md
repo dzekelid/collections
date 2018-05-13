@@ -29,7 +29,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-disable-post.md
+- name: Azure Scheduler API Job Collections List By Subscription
+  description: Gets all job collections under specified subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png
+  humanURL: https://azure.microsoft.com/en-us/services/scheduler/
+  baseURL: http:://management.azure.com//
+  tags: Collections
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-providers-microsoft-scheduler-jobcollections-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-providers-microsoft-scheduler-jobcollections-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/scheduler/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/scheduler/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/scheduler/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/scheduler/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/scheduler/
 - type: x-pricing
