@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai API List Image Collections
-  description: List Image Collections
+  title: Akamai API List Image Collections By Tag
+  description: List Image Collections By Tag
   version: 1.0.0
 host: developer.akamai.com
 basePath: /
@@ -15,9 +15,14 @@ consumes:
 paths:
   /imaging/v0/imagecollections:
     get:
-      summary: List Image Collections
-      description: List Image Collections
-      operationId: imagingv0imagecollections
+      summary: List Image Collections By Tag
+      description: List Image Collections By Tag
+      operationId: imagingv0imagecollectionstag
+      parameters:
+      - in: query
+        name: tag
+        description: Image tag you want to match in a collection
+        type: string
       responses:
         200:
           description: OK
@@ -25,6 +30,7 @@ paths:
       - imaging
       - v0
       - imagecollections
+      - tag
 definitions: []
 x-collection-name: Akamai
 x-streamrank:
