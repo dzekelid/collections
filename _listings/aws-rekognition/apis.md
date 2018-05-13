@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/aws-rekognition/action-listcollections-get.md
-- name: AWS Rekognition API Delete Collection
-  description: Deletes the specified collection.
+- name: AWS Rekognition API List Collections
+  description: Returns list of collection IDs in your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: http:://{host}//
   tags: Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/action-deletecollection-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/action-listcollections-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
