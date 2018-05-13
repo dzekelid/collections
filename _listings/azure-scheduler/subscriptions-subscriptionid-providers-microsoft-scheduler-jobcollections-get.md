@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Job Collections List By Subscription
   version: 1.0.0
+  description: Gets all job collections under specified subscription.
 host: management.azure.com
 basePath: /
 schemes:
