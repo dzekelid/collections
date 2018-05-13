@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Create Collection
   version: 1.0.0
+  description: Creates a collection in an AWS Region.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCollection&k=1:
+  /?Action=CreateCollection:
     get:
       summary: ' Create Collection '
       description: Creates a collection in an AWS Region
