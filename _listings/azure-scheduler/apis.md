@@ -29,17 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-disable-post.md
-- name: Azure Scheduler API Job Collections Delete
-  description: Deletes a job collection.
+- name: Azure Scheduler API Job Collections Enable
+  description: Enables all of the jobs in the job collection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png
   humanURL: https://azure.microsoft.com/en-us/services/scheduler/
   baseURL: http:://management.azure.com//
   tags: Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-enable-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/azure-scheduler/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-scheduler-jobcollections-jobcollectionname-enable-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/scheduler/
