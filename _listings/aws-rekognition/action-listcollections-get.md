@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API List Collections
   version: 1.0.0
+  description: Returns list of collection IDs in your account.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListCollections&k=1:
+  /?Action=ListCollections:
     get:
       summary: ' List Collections '
       description: Returns list of collection IDs in your account
