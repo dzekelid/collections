@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Job Collections List By Resource Group
   version: 1.0.0
+  description: Gets all job collections under specified resource group.
 host: management.azure.com
 basePath: /
 schemes:
