@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/collections/master/_listings/aws-rekognition/action-listcollections-get.md
-- name: AWS Rekognition API Create Collection
-  description: Creates a collection in an AWS Region.
+- name: AWS Rekognition API Delete Collection
+  description: Deletes the specified collection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: http:://{host}//
   tags: Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/action-createcollection-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/action-deletecollection-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
