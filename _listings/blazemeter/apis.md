@@ -1,5 +1,6 @@
 ---
 name: BlazeMeter
+x-slug: blazemeter
 description: BlazeMeter is a self-service, load testing platform (PaaS) for developers
   providing an enterprise grade, out-of-the-box load testing solution. Start testing
   in under five minutes. BlazeMeter significantly simplifies the load testing process
@@ -7,16 +8,37 @@ description: BlazeMeter is a self-service, load testing platform (PaaS) for deve
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blaze_meter.png
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Testing
-- Testing
-- Stack Network
-- Performance
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Collections
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Blazemeter Get User Collections
+  x-api-slug: blazemeter
+  description: Get user collections.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blaze_meter.png
+  humanURL: http://blazemeter.com/
+  baseURL: https://a.blazemeter.com//api/v4//user/collections
+  tags: Monitoring,User,Collections
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/usercollections-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/usercollections-get-openapi.md
+- name: Blazemeter
+  x-api-slug: blazemeter
+  description: BlazeMeter is a self-service, load testing platform (PaaS) for developers
+    providing an enterprise grade, out-of-the-box load testing solution. Start testing
+    in under five minutes. BlazeMeter significantly simplifies the load testing process
+    by providing developers easy integration into their native development environment.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blaze_meter.png
+  humanURL: http://blazemeter.com/
+  baseURL: https://a.blazemeter.com//api/v4
+  tags: Collections
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/openapi.md
 x-common:
 - type: x-blog
   url: http://blazemeter.com/blog
