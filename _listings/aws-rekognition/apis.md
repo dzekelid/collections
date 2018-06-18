@@ -16,10 +16,10 @@ description: Amazon Rekognition is a service that makes it easy to add image ana
   and there are no upfront commitments.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Collections
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=CreateCollection
-  tags: Collections
+  tags: Machine Learning,Collections
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actioncreatecollection-get-openapi.md
@@ -39,7 +39,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=DeleteCollection
-  tags: Collections
+  tags: Machine Learning,Collections
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actiondeletecollection-get-openapi.md
@@ -49,7 +49,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
   baseURL: ://///?Action=ListCollections
-  tags: Collections
+  tags: Machine Learning,Collections
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actionlistcollections-get-openapi.md

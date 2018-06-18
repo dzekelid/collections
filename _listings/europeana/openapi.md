@@ -4,7 +4,7 @@ x-collection-name: Europeana
 x-complete: 1
 info:
   title: Europeana
-  description: this-swagger-api-console-provides-an-overview-of-an-interface-to-the-europeana-rest-api-you-can-build-and-test-anything-from-the-simplest-search-to-a-complex-query-using-facetlist-such-as-dates-geotags-and-permissions-for-more-help-and-information-head-to-our-comprehensive-a-hrefhttplabseuropeanaeuapionline-documentationa
+  description: this-swagger-api-console-provides-an-overview-of-an-interface-to-the-europeana-rest-api--you-can-build-and-test-anything-from-the-simplest-search-to-a-complex-query-using-facetlist-such-as-dates-geotags-and-permissions--for-more-help-and-information-head-to-our-comprehensive-a-hrefhttplabs-europeana-euapionline-documentationa-
   termsOfService: http://www.europeana.eu/portal/en/rights.html
   contact:
     name: http://labs.europeana.eu/api
@@ -23,7 +23,7 @@ paths:
       summary: get a single record in JSON format
       description: Get a single record in json format.
       operationId: getSingleRecordJson
-      x-api-path-slug: recordcollectionidrecordidjson-get
+      x-api-path-slug: recordcollectionidrecordid-json-get
       parameters:
       - in: query
         name: callback
@@ -53,7 +53,7 @@ paths:
       summary: get single record in JSON LD format
       description: Get single record in json ld format.
       operationId: getSingleRecordJsonLD
-      x-api-path-slug: recordcollectionidrecordidjsonld-get
+      x-api-path-slug: recordcollectionidrecordid-jsonld-get
       parameters:
       - in: query
         name: callback
@@ -80,7 +80,7 @@ paths:
       summary: get single record in RDF format)
       description: Get single record in rdf format).
       operationId: getSingleRecordRDF
-      x-api-path-slug: recordcollectionidrecordidrdf-get
+      x-api-path-slug: recordcollectionidrecordid-rdf-get
       parameters:
       - in: path
         name: collectionId

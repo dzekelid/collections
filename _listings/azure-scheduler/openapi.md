@@ -19,7 +19,7 @@ paths:
       summary: Job Collections List By Subscription
       description: Gets all job collections under specified subscription.
       operationId: JobCollections_ListBySubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftschedulerjobcollections-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-schedulerjobcollections-get
       parameters:
       - in: query
         name: No Name
@@ -33,7 +33,7 @@ paths:
       summary: Job Collections List By Resource Group
       description: Gets all job collections under specified resource group.
       operationId: JobCollections_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollections-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollections-get
       parameters:
       - in: query
         name: No Name
@@ -50,7 +50,7 @@ paths:
       summary: Job Collections Get
       description: Gets a job collection.
       operationId: JobCollections_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-get
       parameters:
       - in: path
         name: jobCollectionName
@@ -69,7 +69,7 @@ paths:
       summary: Job Collections Create Or Update
       description: Provisions a new job collection or updates an existing job collection.
       operationId: JobCollections_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-put
       parameters:
       - in: body
         name: jobCollection
@@ -93,7 +93,7 @@ paths:
       summary: Job Collections Patch
       description: Patches an existing job collection.
       operationId: JobCollections_Patch
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-patch
       parameters:
       - in: body
         name: jobCollection
@@ -117,7 +117,7 @@ paths:
       summary: Job Collections Delete
       description: Deletes a job collection.
       operationId: JobCollections_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-delete
       parameters:
       - in: path
         name: jobCollectionName
@@ -137,7 +137,7 @@ paths:
       summary: Job Collections Enable
       description: Enables all of the jobs in the job collection.
       operationId: JobCollections_Enable
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnameenable-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnameenable-post
       parameters:
       - in: path
         name: jobCollectionName
@@ -157,7 +157,7 @@ paths:
       summary: Job Collections Disable
       description: Disables all of the jobs in the job collection.
       operationId: JobCollections_Disable
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamedisable-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamedisable-post
       parameters:
       - in: path
         name: jobCollectionName

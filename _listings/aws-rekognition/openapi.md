@@ -27,6 +27,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=DeleteCollection:
     get:
@@ -43,6 +44,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
   /?Action=ListCollections:
     get:
@@ -63,5 +65,6 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Collections
 ---

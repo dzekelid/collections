@@ -1,61 +1,58 @@
 ---
 name: Europeana
 x-slug: europeana
-description: Europeana API allows you to build applications that use the wealth of
-  cultural heritage objects stored in the Europeana repository. The API uses the standard
-  technology of REST calls over HTTP. Responses are returned in the JSON format.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/europeana-logo.jpeg
+description: Explore 51,990,182 artworks, artefacts, books, videos and sounds from
+  more than 3,500 museums, galleries, libraries and archives across Europe.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "68066"
 tags: Collections
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Europeana get a single record in JSON format
   x-api-slug: europeana
   description: Get a single record in json format.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/europeana-logo.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
   baseURL: https://www.europeana.eu/v2///record/{collectionId}/{recordId}.json
   tags: Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordidjson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordidjson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-json-get-openapi.md
 - name: Europeana get single record in JSON LD format
   x-api-slug: europeana
   description: Get single record in json ld format.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/europeana-logo.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
   baseURL: https://www.europeana.eu/v2///record/{collectionId}/{recordId}.jsonld
   tags: Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordidjsonld-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-jsonld-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordidjsonld-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-jsonld-get-openapi.md
 - name: Europeana get single record in RDF format)
   x-api-slug: europeana
   description: Get single record in rdf format).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/europeana-logo.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
   baseURL: https://www.europeana.eu/v2///record/{collectionId}/{recordId}.rdf
   tags: Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordidrdf-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-rdf-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordidrdf-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-rdf-get-openapi.md
 - name: Europeana
   x-api-slug: europeana
-  description: Europeana API allows you to build applications that use the wealth
-    of cultural heritage objects stored in the Europeana repository. The API uses
-    the standard technology of REST calls over HTTP. Responses are returned in the
-    JSON format.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/europeana-logo.jpeg
+  description: Explore 51,990,182 artworks, artefacts, books, videos and sounds from
+    more than 3,500 museums, galleries, libraries and archives across Europe.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
   baseURL: https://www.europeana.eu/v2/
   tags: Collections
@@ -69,6 +66,8 @@ x-common:
   url: http://blog.europeana.eu/
 - type: x-blog-rss
   url: http://blog.europeana.eu/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/europeana
 - type: x-developer
   url: http://europeana.eu/portal/api-introduction.html
 - type: x-github
@@ -77,6 +76,8 @@ x-common:
   url: https://twitter.com/EuropeanaEU
 - type: x-website
   url: http://europeana.eu/portal/
+- type: x-website
+  url: http://europeana.eu
 include: []
 maintainers:
 - FN: Kin Lane
