@@ -5,7 +5,7 @@ description: This is a repository of collections APIs, self-contained as a Githu
   operations.
 image: http://template.streamdata.gallery/assets/collections.png
 created: "2018-02-24"
-modified: "2018-06-18"
+modified: "2018-06-25"
 url: http://collections.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -31,8 +31,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/reverb/apis.yaml
 - name: BigOven
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/bigoven/apis.yaml
-- name: UK National Archives Discovery
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uk-national-archives-discovery/apis.yaml
+- name: UK National Archives
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uk-national-archives/apis.yaml
 - name: Plivo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/plivo/apis.yaml
 - name: UserVoice
