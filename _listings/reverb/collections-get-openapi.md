@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Collections
+  title: Reverb Get Collections
   description: List of curated collections
   termsOfService: https://reverb.com/page/terms
   contact:

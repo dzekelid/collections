@@ -4,10 +4,10 @@ x-collection-name: Box
 x-complete: 0
 info:
   title: Box Get Collection Items
-  description: "Retrieves the files and/or folders contained within this collection.
-    Collection item lists behave a lot like getting a folder\u2019s items.\nPaginated
-    results can be retrieved using the limit and offset parameters.\nSub-object fields
-    can be requested via the ?fields parameter"
+  description: |-
+    Retrieves the files and/or folders contained within this collection. Collection item lists behave a lot like getting a folder???s items.
+    Paginated results can be retrieved using the limit and offset parameters.
+    Sub-object fields can be requested via the ?fields parameter
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
@@ -34,10 +34,10 @@ paths:
   /collections/{COLLECTION_ID}/items:
     get:
       summary: Get Collection Items
-      description: "Retrieves the files and/or folders contained within this collection.
-        Collection item lists behave a lot like getting a folder\u2019s items.\nPaginated
-        results can be retrieved using the limit and offset parameters.\nSub-object
-        fields can be requested via the ?fields parameter"
+      description: |-
+        Retrieves the files and/or folders contained within this collection. Collection item lists behave a lot like getting a folder???s items.
+        Paginated results can be retrieved using the limit and offset parameters.
+        Sub-object fields can be requested via the ?fields parameter
       operationId: getCollectionItems
       x-api-path-slug: collectionscollection-iditems-get
       parameters:

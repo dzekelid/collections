@@ -18,64 +18,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Collections
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Rekognition API Create Collection
-  x-api-slug: aws-rekognition-api
-  description: Creates a collection in an AWS Region.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
-  humanURL: https://aws.amazon.com/rekognition/
-  baseURL: ://///?Action=CreateCollection
-  tags: Machine Learning,Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actioncreatecollection-get-openapi.md
-- name: AWS Rekognition API Delete Collection
-  x-api-slug: aws-rekognition-api
-  description: Deletes the specified collection.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
-  humanURL: https://aws.amazon.com/rekognition/
-  baseURL: ://///?Action=DeleteCollection
-  tags: Machine Learning,Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actiondeletecollection-get-openapi.md
-- name: AWS Rekognition API List Collections
-  x-api-slug: aws-rekognition-api
-  description: Returns list of collection IDs in your account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
-  humanURL: https://aws.amazon.com/rekognition/
-  baseURL: ://///?Action=ListCollections
-  tags: Machine Learning,Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actionlistcollections-get-openapi.md
-- name: AWS Rekognition API
-  x-api-slug: aws-rekognition-api
-  description: Amazon Rekognition is a service that makes it easy to add image analysis
-    to your applications. With Rekognition, you can detect objects, scenes, and faces
-    in images. You can also search and compare faces. Rekognition&rsquo;s API enables
-    you to quickly add sophisticated deep learning-based visual search and image classification
-    to your applications.Amazon Rekognition is based on the same proven, highly scalable,
-    deep learning technology developed by Amazon&rsquo;s computer vision scientists
-    to analyze billions of images daily for Prime Photos. Amazon Rekognition uses
-    deep neural network models to detect and label thousands of objects and scenes
-    in your images, and we are continually adding new labels and facial recognition
-    features to the service.Rekognition&rsquo;s API lets you easily build powerful
-    visual search and discovery into your applications. With Amazon Rekognition, you
-    only pay for the images you analyze and the face metadata you store. There are
-    no minimum fees and there are no upfront commitments.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
-  humanURL: https://aws.amazon.com/rekognition/
-  baseURL: :///
-  tags: Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.redshift.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.rekognition.stack.network
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
 - type: x-customers

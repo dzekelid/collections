@@ -7,59 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europe
 x-kinRank: "9"
 x-alexaRank: "68066"
 tags: Collections
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Europeana get a single record in JSON format
-  x-api-slug: europeana
+- name: Europeana - get a single record in JSON format
+  x-api-slug: recordcollectionidrecordid-json-get
   description: Get a single record in json format.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2///record/{collectionId}/{recordId}.json
-  tags: Collections
+  baseURL: https://www.europeana.eu/v2/
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-json-get-openapi.md
-- name: Europeana get single record in JSON LD format
-  x-api-slug: europeana
+- name: Europeana - get single record in JSON LD format
+  x-api-slug: recordcollectionidrecordid-jsonld-get
   description: Get single record in json ld format.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2///record/{collectionId}/{recordId}.jsonld
-  tags: Collections
+  baseURL: https://www.europeana.eu/v2/
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-jsonld-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-jsonld-get-openapi.md
-- name: Europeana get single record in RDF format)
-  x-api-slug: europeana
+- name: Europeana - get single record in RDF format)
+  x-api-slug: recordcollectionidrecordid-rdf-get
   description: Get single record in rdf format).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2///record/{collectionId}/{recordId}.rdf
-  tags: Collections
+  baseURL: https://www.europeana.eu/v2/
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-rdf-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/recordcollectionidrecordid-rdf-get-openapi.md
-- name: Europeana
-  x-api-slug: europeana
-  description: Explore 51,990,182 artworks, artefacts, books, videos and sounds from
-    more than 3,500 museums, galleries, libraries and archives across Europe.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
-  humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2/
-  tags: Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://eu.vat.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://europeana.stack.network
 - type: x-base
   url: http://www.europeana.eu/api/
 - type: x-blog

@@ -7,47 +7,42 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/86-uservoi
 x-kinRank: "8"
 x-alexaRank: "5638"
 tags: Collections
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/apis.md
 specificationVersion: "0.14"
 apis:
-- name: The Noun Project User API Get user collections
-  x-api-slug: the-noun-project-user-api
+- name: The Noun Project User API - Get user collections
+  x-api-slug: useruser-idcollections-get
   description: Returns a list of collections associated with a user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/86-uservoice.jpg
   humanURL: https://uservoice.com/
-  baseURL: :///user/http://api.thenounproject.com//user/{user_id}/collections
-  tags: User,User,Id,Collections
+  baseURL: :///user/http://api.thenounproject.com
+  tags: Support, Feedback, Help Desk, Forums, Support, Forums, Support, Forum STack,
+    Stack Network, SaaS, Technology, Customers, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/useruser-idcollections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/useruser-idcollections-get-openapi.md
-- name: The Noun Project User API Get user collection
-  x-api-slug: the-noun-project-user-api
+- name: The Noun Project User API - Get user collection
+  x-api-slug: useruser-idcollectionsslug-get
   description: Returns a single collection associated with a user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/86-uservoice.jpg
   humanURL: https://uservoice.com/
-  baseURL: :///user/http://api.thenounproject.com//user/{user_id}/collections/{slug}
-  tags: User,User,Id,Collections,Slug
+  baseURL: :///user/http://api.thenounproject.com
+  tags: Support, Feedback, Help Desk, Forums, Support, Forums, Support, Forum STack,
+    Stack Network, SaaS, Technology, Customers, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/useruser-idcollectionsslug-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/useruser-idcollectionsslug-get-openapi.md
-- name: The Noun Project User API
-  x-api-slug: the-noun-project-user-api
-  description: Product management software that transforms how businesses capture
-    and analyze feedback to prioritize the roadmap and make strategic product decisions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/86-uservoice.jpg
-  humanURL: https://uservoice.com/
-  baseURL: :///user/http://api.thenounproject.com
-  tags: Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://usajobs.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://uservoice.stack.network
 - type: x-base
   url: https://uservoice.com/api/
 - type: x-blog

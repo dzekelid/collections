@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
-x-collection-name: Plivo
+x-collection-name: University of Washington
 x-complete: 1
 info:
-  title: Plivo
+  title: University of Washington
   version: 1.0.0
 schemes:
 - http

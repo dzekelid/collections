@@ -7,35 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blaze
 x-kinRank: "8"
 x-alexaRank: "69236"
 tags: Collections
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Blazemeter Get User Collections
-  x-api-slug: blazemeter
+- name: Blazemeter API Explorer - Get User Collections
+  x-api-slug: usercollections-get
   description: Get user collections.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
   humanURL: http://blazemeter.com/
-  baseURL: https://a.blazemeter.com//api/v4//user/collections
-  tags: Monitoring,User,Collections
+  baseURL: https://a.blazemeter.com//api/v4
+  tags: Testing, Testing, Performance, Stack Network, SaaS, Technology, Enterprise,
+    API Service Provider, API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/usercollections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/usercollections-get-openapi.md
-- name: Blazemeter
-  x-api-slug: blazemeter
-  description: BlazeMeter platform for load and performance testing enables dev and
-    QA teams to run scalable and continuous testing for website, mobile, api and software
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
-  humanURL: http://blazemeter.com/
-  baseURL: https://a.blazemeter.com//api/v4
-  tags: Collections
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bitly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://blazemeter.stack.network
 - type: x-blog
   url: http://blazemeter.com/blog
 - type: x-blog-rss
