@@ -7,6 +7,7 @@ info:
   description: Returns the names of all user-defined domain object collections with
     counts of domain objects contained.
   version: 1.0.0
+host: predix-apphub-arcs-prod.run.aws-usw02-pr.ice.predix.io
 basePath: /
 schemes:
 - http

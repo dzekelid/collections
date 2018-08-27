@@ -18,11 +18,47 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Collections
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Rekognition API - Create Collection
+  x-api-slug: actioncreatecollection-get
+  description: Creates a collection in an AWS Region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
+  humanURL: https://aws.amazon.com/rekognition/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Facial Recognition, Object Recognition,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actioncreatecollection-get-openapi.md
+- name: AWS Rekognition API - Delete Collection
+  x-api-slug: actiondeletecollection-get
+  description: Deletes the specified collection.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
+  humanURL: https://aws.amazon.com/rekognition/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Facial Recognition, Object Recognition,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actiondeletecollection-get-openapi.md
+- name: AWS Rekognition API - List Collections
+  x-api-slug: actionlistcollections-get
+  description: Returns list of collection IDs in your account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
+  humanURL: https://aws.amazon.com/rekognition/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Facial Recognition, Object Recognition,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/actionlistcollections-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.redshift.api.gallery.streamdata.io

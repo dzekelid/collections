@@ -8,11 +8,58 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Collections
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Moltin - Get Collections List
+  x-api-slug: v2collections-get
+  description: Get collections list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/v2collections-get-openapi.md
+- name: Moltin - Update Products <=> Collections Relationships
+  x-api-slug: v2productsproductidrelationshipscollections-put
+  description: '`Collection`''s specified in the payload willbe related to the product
+    any relatiosnhips to `Collection`''s **NOT** specified in payload will be removed.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/v2productsproductidrelationshipscollections-put-openapi.md
+- name: Moltin - Create Products <=> Collections Relationships
+  x-api-slug: v2productsproductidrelationshipscollections-post
+  description: Here you can add `Collection`'s to a product. `Collection`'s specified
+    in the payload willbe related to the product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/v2productsproductidrelationshipscollections-post-openapi.md
+- name: Moltin - Delete Products <=> Collections Relationships
+  x-api-slug: v2productsproductidrelationshipscollections-delete
+  description: Here you can delete a relationship between a `Product` and `Collections`.
+    Only relationships to `Collections` specified in the payload will be removed.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png
+  humanURL: https://moltin.com
+  baseURL: https://api.moltin.com//
+  tags: Commerce, Target, Commerce, Stack Network, Retail, Kiosk, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/v2productsproductidrelationshipscollections-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://mocklab.api.gallery.streamdata.io

@@ -1,0 +1,318 @@
+{
+	"name": "Streadata.io API Gallery - Collections",
+	"description": "This is a repository of collections APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/collections.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://collections.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "UserVoice",
+			"x-api-slug": "uservoice",
+			"description": "Product management software that transforms how businesses capture and analyze feedback to prioritize the roadmap and make strategic product decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/86-uservoice.jpg",
+			"humanURL": "https://uservoice.com/",
+			"baseURL": ":///user/http://api.thenounproject.com",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Europeana",
+			"x-api-slug": "europeana",
+			"description": "Explore 51,990,182 artworks, artefacts, books, videos and sounds from more than 3,500 museums, galleries, libraries and archives across Europe.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg",
+			"humanURL": "http://europeana.eu/portal/",
+			"baseURL": "https://www.europeana.eu/v2/",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uk-national-archives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Getty Images",
+			"x-api-slug": "getty-images",
+			"description": "Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg",
+			"humanURL": "http://www.gettyimages.com/",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/getty-images/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BlazeMeter",
+			"x-api-slug": "blazemeter",
+			"description": "BlazeMeter platform for load and performance testing enables dev and QA teams to run scalable and continuous testing for website, mobile, api and software",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg",
+			"humanURL": "http://blazemeter.com/",
+			"baseURL": "https://a.blazemeter.com//api/v4",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Washington",
+			"x-api-slug": "university-of-washington",
+			"description": "The UW is a leading research university with three campuses, a world-class academic medical center and extensive continuing education programs. The students, faculty and researchers who come here are driven to turn ideas into actions. They transform ou...",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://www.washington.edu/",
+			"baseURL": "https:///",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/university-of-washington/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Rekognition",
+			"x-api-slug": "aws-rekognition",
+			"description": "Amazon Rekognition is a service that makes it easy to add image analysis to your applications. With Rekognition, you can detect objects, scenes, and faces in images. You can also search and compare faces. Rekognition&rsquo;s API enables you to quickly add sophisticated deep learning-based visual search and image classification to your applications.Amazon Rekognition is based on the same proven, highly scalable, deep learning technology developed by Amazon&rsquo;s computer vision scientists to analyze billions of images daily for Prime Photos. Amazon Rekognition uses deep neural network models to detect and label thousands of objects and scenes in your images, and we are continually adding new labels and facial recognition features to the service.Rekognition&rsquo;s API lets you easily build powerful visual search and discovery into your applications. With Amazon Rekognition, you only pay for the images you analyze and the face metadata you store. There are no minimum fees and there are no upfront commitments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png",
+			"humanURL": "https://aws.amazon.com/rekognition/",
+			"baseURL": ":///",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "eMuseum API docs",
+			"x-api-slug": "emuseum-api-docs",
+			"description": "Developed in partnership with museums, The Museum System makes capturing, managing and accessing collection information quick and easy. eMuseum is a web-based software program that integrates seamlessly with TMS and other collection management systems to dynamically publish information to your website, Intranet, and kiosks. This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg",
+			"humanURL": "http://gsa.github.io/eMuseum-API/",
+			"baseURL": "https://gsafinearts.pbs.gsa.gov//emuseum/api",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/emuseum-api-docs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Collections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/predix/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Collections",
+	"include": [
+		{
+			"name": "UserVoice",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uservoice/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "Europeana",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/europeana/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "Getty Images",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/getty-images/apis.yaml"
+		},
+		{
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "BlazeMeter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/blazemeter/apis.yaml"
+		},
+		{
+			"name": "University of Washington",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/university-of-washington/apis.yaml"
+		},
+		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "AWS Rekognition",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/aws-rekognition/apis.yaml"
+		},
+		{
+			"name": "eMuseum API docs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/emuseum-api-docs/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/collections/master/_listings/predix/apis.yaml"
+		}
+	]
+}
